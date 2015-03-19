@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tile" tilewidth="64" tileheight="64">
+  <image source="tile.png" width="640" height="384"/>
+ </tileset>
+ <layer name="bg" width="300" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt2ccKAlEMhWHrygZ2QQW72BW7vv9zeQRnO0IyIdzh/PAt5yaQ5WQyjKW35w9jjDHGGGMs/dWhAU3vRZgo7f14fxZSfRjA0HsRJkp7P96fRWUh573En+awgKXhjAlMYWY4w7sRjB3mxt0vDwUoCr8PPa+baEtib8kbJSgr51p3gCOcDGdsYQd7wxnerWHjMDfufhWoQk34feh53URbEntL3mhBWznXuu+/6xe8DWfc4A4PwxneXeDqMDfufh3oQk/4feh53URbEntHb6yIiAJxJiIKxAe3yHvt
+  </data>
+ </layer>
+ <objectgroup name="bigObstacle" width="300" height="10">
+  <object x="979" y="285" width="27" height="224"/>
+  <object x="2933" y="285" width="33" height="224"/>
+  <object x="3942" y="258" width="39" height="252"/>
+  <object x="4888" y="273" width="42" height="239"/>
+  <object x="6694" y="224" width="30" height="285"/>
+  <object x="8524" y="285" width="24" height="224"/>
+  <object x="10758" y="230" width="24" height="279"/>
+  <object x="13518" y="230" width="33" height="279"/>
+  <object x="14642" y="261" width="39" height="248"/>
+  <object x="15997" y="276" width="27" height="233"/>
+  <object x="16903" y="273" width="18" height="239"/>
+  <object x="17512" y="300" width="32" height="212"/>
+ </objectgroup>
+ <objectgroup name="heart" width="300" height="10">
+  <object x="1252" y="300"/>
+  <object x="1509" y="294"/>
+  <object x="1773" y="297"/>
+  <object x="2270" y="303"/>
+  <object x="2533" y="303"/>
+  <object x="2758" y="303"/>
+  <object x="4212" y="40"/>
+  <object x="4212" y="224"/>
+  <object x="4208" y="408"/>
+  <object x="7700" y="403" width="21" height="21"/>
+  <object x="7900" y="282"/>
+  <object x="8097" y="161"/>
+  <object x="8342" y="97"/>
+  <object x="8615" y="97"/>
+  <object x="8882" y="97"/>
+  <object x="9118" y="164"/>
+  <object x="9327" y="288"/>
+  <object x="9512" y="418"/>
+  <object x="10139" y="421"/>
+  <object x="10291" y="288"/>
+  <object x="10421" y="158"/>
+  <object x="11173" y="452"/>
+  <object x="11436" y="455"/>
+  <object x="12055" y="406"/>
+  <object x="12252" y="415"/>
+  <object x="12582" y="291"/>
+  <object x="12764" y="285"/>
+  <object x="13091" y="158"/>
+  <object x="13285" y="164"/>
+  <object x="14364" y="158"/>
+  <object x="14561" y="161"/>
+  <object x="14873" y="297"/>
+  <object x="15064" y="294"/>
+  <object x="15403" y="409"/>
+  <object x="15588" y="409"/>
+  <object x="16473" y="170"/>
+  <object x="16473" y="294"/>
+  <object x="16470" y="427"/>
+  <object x="17236" y="409"/>
+  <object x="17318" y="348"/>
+  <object x="17388" y="282"/>
+  <object x="17452" y="209"/>
+  <object x="17518" y="148"/>
+  <object x="17582" y="215"/>
+  <object x="17639" y="279"/>
+  <object x="17700" y="352"/>
+  <object x="17770" y="424"/>
+  <object x="17827" y="352"/>
+  <object x="17897" y="273"/>
+  <object x="17967" y="212"/>
+  <object x="18024" y="148"/>
+  <object x="18088" y="209"/>
+  <object x="18155" y="276"/>
+  <object x="18224" y="361"/>
+  <object x="18282" y="430"/>
+  <object x="15191" y="-348"/>
+ </objectgroup>
+ <objectgroup name="airship" width="300" height="10">
+  <object x="5652" y="224" width="55" height="42">
+   <ellipse/>
+  </object>
+  <object x="12342" y="194" width="70" height="39">
+   <ellipse/>
+  </object>
+  <object x="15770" y="245" width="82" height="52">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="bird" width="300" height="10">
+  <object x="2003" y="133" width="33" height="33">
+   <ellipse/>
+  </object>
+  <object x="2003" y="288" width="33" height="33">
+   <ellipse/>
+  </object>
+  <object x="2006" y="445" width="33" height="33">
+   <ellipse/>
+  </object>
+  <object x="3433" y="155">
+   <ellipse/>
+  </object>
+  <object x="6182" y="82">
+   <ellipse/>
+  </object>
+  <object x="6182" y="203">
+   <ellipse/>
+  </object>
+  <object x="6185" y="324">
+   <ellipse/>
+  </object>
+  <object x="6179" y="455">
+   <ellipse/>
+  </object>
+  <object x="7273" y="218">
+   <ellipse/>
+  </object>
+  <object x="7509" y="215">
+   <ellipse/>
+  </object>
+  <object x="9864" y="252">
+   <ellipse/>
+  </object>
+  <object x="10085" y="252">
+   <ellipse/>
+  </object>
+  <object x="11306" y="321">
+   <ellipse/>
+  </object>
+  <object x="13194" y="203">
+   <ellipse/>
+  </object>
+  <object x="13194" y="345">
+   <ellipse/>
+  </object>
+  <object x="14936" y="167">
+   <ellipse/>
+  </object>
+  <object x="15424" y="333">
+   <ellipse/>
+  </object>
+  <object x="17173" y="176">
+   <ellipse/>
+  </object>
+  <object x="17179" y="358">
+   <ellipse/>
+  </object>
+  <object x="17773" y="158">
+   <ellipse/>
+  </object>
+  <object x="18348" y="173">
+   <ellipse/>
+  </object>
+  <object x="18342" y="367">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

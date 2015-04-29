@@ -1,0 +1,114 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: quick-cocos2d-x 3.3
+	gl.vendor: Intel Inc.
+	gl.supports_PVRTC: false
+	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 INTEL-10.0.86
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2d-x C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/cocos/workSpace/Cocos2d-x/quickProjects/el/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /Users/cocos/workSpace/Cocos2d-x/quickProjects/el/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 533.33
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 320.00
+[LUA-print] [INFO] # display.widthInPixels        = 800.00
+[LUA-print] [INFO] # display.heightInPixels       = 480.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.50
+[LUA-print] [INFO] # display.width                = 533.33
+[LUA-print] [INFO] # display.height               = 320.00
+[LUA-print] [INFO] # display.cx                   = 266.67
+[LUA-print] [INFO] # display.cy                   = 160.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 533.33
+[LUA-print] [INFO] # display.top                  = 320.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -266.67
+[LUA-print] [INFO] # display.c_right              = 266.67
+[LUA-print] [INFO] # display.c_top                = 160.00
+[LUA-print] [INFO] # display.c_bottom             = -160.00
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] nil
+Node warning: setPhysicsBody sets anchor point to Vec2::ANCHOR_MIDDLE.
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "app/scenes/GameScene.lua"]:30: attempt to index global 'GameUtil' (a nil value)
+
+[LUA-print] 
+stack traceback:
+	[string "app/scenes/GameScene.lua"]:30: in function 'ctor'
+	[string "framework/functions.lua"]:315: in function 'new'
+	[string "framework/cc/mvc/AppBase.lua"]:40: in function 'enterScene'
+	[string "app/scenes/MainScene.lua"]:37: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UIPushButton.lua"]:122: in function <[string "framework/cc/ui/UIPushButton.lua"]:94>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
+[LUA-print] nil
+Node warning: setPhysicsBody sets anchor point to Vec2::ANCHOR_MIDDLE.
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "app/scenes/GameScene.lua"]:30: attempt to index global 'GameUtil' (a nil value)
+
+[LUA-print] 
+stack traceback:
+	[string "app/scenes/GameScene.lua"]:30: in function 'ctor'
+	[string "framework/functions.lua"]:315: in function 'new'
+	[string "framework/cc/mvc/AppBase.lua"]:40: in function 'enterScene'
+	[string "app/scenes/MainScene.lua"]:37: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UIPushButton.lua"]:122: in function <[string "framework/cc/ui/UIPushButton.lua"]:94>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
+[LUA-print] nil
+Node warning: setPhysicsBody sets anchor point to Vec2::ANCHOR_MIDDLE.
+[LUA-print] ----------------------------------------
+[LUA-print] LUA ERROR: [string "app/scenes/GameScene.lua"]:30: attempt to index global 'GameUtil' (a nil value)
+
+[LUA-print] 
+stack traceback:
+	[string "app/scenes/GameScene.lua"]:30: in function 'ctor'
+	[string "framework/functions.lua"]:315: in function 'new'
+	[string "framework/cc/mvc/AppBase.lua"]:40: in function 'enterScene'
+	[string "app/scenes/MainScene.lua"]:37: in function '?'
+	[string "framework/cc/components/behavior/EventProtocol.lua"]:59: in function <[string "framework/cc/components/behavior/EventProtocol.lua"]:38>
+	(tail call): ?
+	[string "framework/cc/ui/UIPushButton.lua"]:122: in function <[string "framework/cc/ui/UIPushButton.lua"]:94>
+	(tail call): ?
+	[string "framework/cocos2dx/NodeEx.lua"]:394: in function <[string "framework/cocos2dx/NodeEx.lua"]:348>
+[LUA-print] ----------------------------------------
